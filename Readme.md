@@ -40,27 +40,35 @@ ssh-keygen -t rsa -b 8192 -C "soumyadipadak@gmail.com"
 15. git push -u origin main and check it in github.
 
 16. after successful setup, any change in local files >> 
-	> git add . for add all files.
-	> git add filepath for add particular file.
-	> git checkout -- filepath for delete that changes.
-	> git stash for delete all changes.
-	> git pull for pull changes of other co-developer on same git repository.
-	> git push for upload change of own local files.
-	> git status for chcek status of my current local changes and stages like uncommited(called unstaged)(RED), commited but not pushed(called staged)(GREEN).
-	> git diff <filepath> to see changes in uncommited files.
-	> git diff --staged -- <file_path> to see changes in already staged files
-	> git log for see previous commits.
-	> git show <commit id> to see changes in that particular commit.
+	>> git add . for add all files.
+	>> git add filepath for add particular file.
+	>> git checkout -- filepath for delete that changes.
+	>> git stash for delete all changes.
+	>> git pull for pull changes of other co-developer on same git repository.
+	>> git push for upload change of own local files.
+	>> git status for chcek status of my current local changes and stages like uncommited(called unstaged)(RED), commited but not pushed(called staged)(GREEN).
+	>> git diff <filepath> to see changes in uncommited files.
+	>> git diff --staged -- <file_path> to see changes in already staged files
+	>> git log for see previous commits.
+	>> git show <commit id> to see changes in that particular commit.
 	
 17. tips to avoid git merge conflict>>
 	i. git pull to take pull first.
+	
 	ii. if it is getting aborted then take backup of that files and git checkout -- <filepath>
+	
 	iii. then take git pull
+	
 	iv. after successful pull change whatever you have backup previously.
+	
 	v. git pull again
+	
 	vi. git add . to add all your changes to staged area.
+	
 	vii. git commit -m "message"
+	
 	viii. git pull
+	
 	ix. git push
 	
 
