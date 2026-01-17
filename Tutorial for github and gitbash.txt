@@ -100,3 +100,12 @@ The --global flag ensures these settings are applied to all your Git repositorie
 Verify your settings by running:
 
 >>git config --list
+
+** 
+For return to previous state and discard current commit
+
+git reset --hard HEAD~1 
+
+It is a destructive action that permanently discards the last commit and all associated changes (staged and unstaged) 
+in your local repository. 
+It effectively moves your entire project back to the state of the previous commit. 
