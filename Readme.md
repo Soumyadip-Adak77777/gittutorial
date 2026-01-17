@@ -39,20 +39,33 @@ ssh-keygen -t rsa -b 8192 -C "soumyadipadak@gmail.com"
 
 15. git push -u origin main and check it in github.
 
-16. after successful setup, any change in local files >> 
-	>> git add . for add all files.
-	>> git add filepath for add particular file.
-	>> git checkout -- filepath for delete that changes.
-	>> git stash for delete all changes.
-	>> git pull for pull changes of other co-developer on same git repository.
-	>> git push for upload change of own local files.
-	>> git status for chcek status of my current local changes and stages like uncommited(called unstaged)(RED), commited but not pushed(called staged)(GREEN).
-	>> git diff <filepath> to see changes in uncommited files.
-	>> git diff --staged -- <file_path> to see changes in already staged files
-	>> git log for see previous commits.
-	>> git show <commit id> to see changes in that particular commit.
+16. after successful setup, any change in local files >>
+ 
+	i. git add . for add all files.
+	
+	ii. git add filepath for add particular file.
+	
+	iii. git checkout -- filepath for delete that changes.
+	
+	iv. git stash for delete all changes.
+	
+	v. git pull for pull changes of other co-developer on same git repository.
+	
+	vi. git push for upload change of own local files.
+	
+	vii. git status for chcek status of my current local changes and stages like uncommited(called unstaged)(RED), commited but not pushed(called staged)(GREEN).
+	
+	viii. git diff <filepath> to see changes in uncommited files.
+	
+	ix. git diff --staged -- <file_path> to see changes in already staged files
+	
+	x. git log for see previous commits.
+	
+	xi. git show <commit id> to see changes in that particular commit.
+	
 	
 17. tips to avoid git merge conflict>>
+
 	i. git pull to take pull first.
 	
 	ii. if it is getting aborted then take backup of that files and git checkout -- <filepath>
