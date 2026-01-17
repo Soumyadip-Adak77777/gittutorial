@@ -39,7 +39,7 @@ New git setup
 
 13. test the connection by ssh -T git@github.com and you see the message of success or failure.
 
-14. after success hit >> git remote set-url origin git@github.com:Soumyadip-Adak77777/gittutorial.git
+**14. after success set this url to use SSH as authentication >> git remote set-url origin git@github.com:Soumyadip-Adak77777/gittutorial.git 
 
 15. git push -u origin main and check it in github.
 
